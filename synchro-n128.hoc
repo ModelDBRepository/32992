@@ -37,8 +37,10 @@ objref nc[nsyn], g, b, rsyn[nsyn], s[nsyn], rc, rd
 use_mcell_ran4()
 lowindex = mcell_ran4_init()
 rc = new Random()
+rc.Random123()
 rc.uniform(0,134)
 rd = new Random()
+rd.Random123()
 rd.uniform(0,1)
 
 xopen("n128su.hoc")             // geometry file

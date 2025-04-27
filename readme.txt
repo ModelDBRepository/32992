@@ -68,3 +68,7 @@ will open the simulation window.
 
 Questions on how to use this model
 should be directed to michele.migliore@pa.ibf.cnr.it
+
+Changelog
+---------
+2024-11: Updated hoc files to use Random123
